@@ -43,6 +43,8 @@ namespace ORM_Dapper
             //productRepo.CreateAProduct("Broke phone", 0.00, 3); works!!
             
             // productRepo.UpdateSaleItems(5); works!
+            
+            //productRepo.DeleteProduct("Lenovo Yoga"); does not work
             #endregion
         }
     }
