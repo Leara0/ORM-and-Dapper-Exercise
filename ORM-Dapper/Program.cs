@@ -39,12 +39,17 @@ namespace ORM_Dapper
             #region products
 
             var productRepo = new ProductRepo(connection);
-            var product = productRepo.GetAllProducts();
+            var products = productRepo.GetAllProducts();
             //productRepo.CreateAProduct("Broke phone", 0.00, 3); works!!
             
             // productRepo.UpdateSaleItems(5); works!
             
-            //productRepo.DeleteProduct("Lenovo Yoga"); does not work
+            productRepo.DeleteProduct(941); //works
+
+            foreach (var item in products)
+            {
+                Console.WriteLine($"ID: {item.ProductId} | Name: {item.Name} | Price: {item.Price}");
+            }
             #endregion
         }
     }

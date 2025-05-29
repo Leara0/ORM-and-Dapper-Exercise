@@ -6,5 +6,5 @@ public interface IProductRepo
     public void CreateAProduct(string name, double price, int categoryID);
     public void UpdateSaleItems(int discountPercentage);
 
-    public void DeleteProduct(string name);
+    public void DeleteProduct(int productId);
 }
