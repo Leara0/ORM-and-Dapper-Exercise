@@ -53,7 +53,7 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.28, )"
+              "version": "[2.1.66, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -69,7 +69,7 @@
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[9.3.0, )"
             }
           },
           "imports": [
