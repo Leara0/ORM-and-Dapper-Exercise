@@ -21,7 +21,7 @@ namespace ORM_Dapper
             #region departments
 
             var departmentRepo = new DepartmentRepo(connection);
-            var department = departmentRepo.GetAllProducts();
+            var department = departmentRepo.GetAllDepartments();
 
             //foreach (var dept in department)
             //{

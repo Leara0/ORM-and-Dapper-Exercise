@@ -13,7 +13,7 @@ public class DepartmentRepo : IDepartmentRepo
         _connection = connection;
     }
     
-    public IEnumerable<Department> GetAllProducts()
+    public IEnumerable<Department> GetAllDepartments()
     {
         return _connection.Query<Department>("SELECT * FROM Departments;");
     }

@@ -2,7 +2,7 @@ namespace ORM_Dapper.DataManagement;
 
 public interface IDepartmentRepo
 {
-    public IEnumerable<Department> GetAllProducts();
+    public IEnumerable<Department> GetAllDepartments();
     
     public void InsertDepartment(Department department);
 }
